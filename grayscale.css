@@ -363,3 +363,57 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+
+.panel {
+    background-color: #65747B;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.panel-heading {
+    background-color: #4F5B61; /* Darker for contrast */
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 12px 15px;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+}
+
+.panel-default>.panel-heading {
+    background-color: #4F5B61; /* Darker for contrast */
+}
+
+.panel-title a {
+    display: block;
+    text-decoration: none;
+    color: #fff !important;
+    background-color: #4F5B61;
+}
+
+.panel-title a:hover,
+.panel-title a:focus {
+    color: #ddd !important;
+}
+
+.panel-body {
+    background-color: #65747B;
+    color: #fff !important;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 20px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    border-radius: 0 0 4px 4px;
+}
+
+section {
+    scroll-margin-top: 80px; /* Modern browsers */
+    padding-top: 40px;
+}
+
+.btn.btn-linkedin {
+    text-transform: none !important;
+}
